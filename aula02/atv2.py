@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-__author__      = "Matheus Dib, Fabio de Miranda"
+__author__      = "Giovanni Santos, Victor Niubo"
 
 
 import cv2
@@ -94,7 +94,7 @@ while(True):
                     dist = f*H/pit
 
                     if xf == 0:
-                        cv2.putText(bordas_color,str(90)+'°',(100,100), font, 1,(255,255,255),2,cv2.LINE_AA)
+                        cv2.putText(bordas_color,str(90)+'graus',(100,100), font, 1,(255,255,255),2,cv2.LINE_AA)
                     else:
                         tang = float(yf)/float(xf)
                         seng = yf/dist

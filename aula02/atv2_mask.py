@@ -1,6 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
+__author__      = "Giovanni Santos, Victor Niubo"
+
 import cv2
 import numpy as np
 import time
